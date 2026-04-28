@@ -18,10 +18,14 @@
 | SVR                    | 0.2168     | 45 203.51      |
 
 ## Структура проекта
-├── 00_EDA.ipynb          # Exploratory Data Analysis
-├── 01_Preprocessing.ipynb # Подготовка данных
-├── 02_Models.ipynb        # Обучение и сравнение моделей
+```
+├── 00_EDA.ipynb               # Exploratory Data Analysis
+├── 01_Preprocessing.ipynb     # Подготовка данных
+├── 02_Models.ipynb            # Обучение и сравнение моделей
 └── data/
+    ├── train.csv              # Исходные данные
+    └── processed/             # Обработанные данные
+```
 
 ## Стек
 Python, pandas, numpy, scikit-learn, matplotlib, seaborn
